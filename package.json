@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "pm2 start server.js --watch",
+    "stop": "pm2 stop 0; pm2 del 0",
+    "monit": "pm2 monit",
+    "logs": "pm2 logs"
+  },
+  "dependencies": {
+    "demo-rest": "^0.2.7-alpha.6",
+    "demo-webify": "^0.2.7-alpha.6"
+  },
+  "devDependencies": {
+    "pm2": "^3.5.0"
+  }
+}
