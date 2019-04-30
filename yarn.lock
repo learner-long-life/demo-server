@@ -9,14 +9,15 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
-"@democracy.js/depart@^0.2.7-alpha.6":
-  version "0.2.7-alpha.6"
-  resolved "https://registry.yarnpkg.com/@democracy.js/depart/-/depart-0.2.7-alpha.6.tgz#9b4391736a8dd7d3cff9f82f87102e923276f911"
-  integrity sha512-1cBAtKb9OickHEl4Dg9J50Zv3KE59vJuHR3SOZ1RQoAqxPOiD56IL9MvaPhwtPZU/Yz5LzSL5xzvfg8QU++xMQ==
+"@democracy.js/depart@^0.2.7-alpha.8":
+  version "0.2.7-alpha.8"
+  resolved "https://registry.yarnpkg.com/@democracy.js/depart/-/depart-0.2.7-alpha.8.tgz#9aa88f0783fb13bb26667df0e3bfd08f6c65c50a"
+  integrity sha512-6g487U3jcD6T2b/p0JxzLNicaTWYCVnTAzZhwSPz3p6ja9PMtVV08Kr6YvkQG4/KOtrJbln38V65+ReLLIZU+Q==
   dependencies:
-    demo-compile "^0.2.7-alpha.6"
-    demo-contract "^0.2.7-alpha.6"
-    demo-utils "^0.2.7-alpha.5"
+    demo-compile "^0.2.7-alpha.8"
+    demo-contract "^0.2.7-alpha.8"
+    demo-rest "^0.2.7-alpha.8"
+    demo-utils "^0.2.7-alpha.8"
     immutable "4.0.0-rc.12"
 
 "@invisible-college/keythereum@1.1.0":
@@ -917,36 +918,36 @@ delegates@^1.0.0:
   resolved "https://registry.yarnpkg.com/delegates/-/delegates-1.0.0.tgz#84c6e159b81904fdca59a0ef44cd870d31250f9a"
   integrity sha1-hMbhWbgZBP3KWaDvRM2HDTElD5o=
 
-demo-compile@^0.2.7-alpha.6:
-  version "0.2.7-alpha.6"
-  resolved "https://registry.yarnpkg.com/demo-compile/-/demo-compile-0.2.7-alpha.6.tgz#d8edc48cc7541217f8c352763a7bfd071f79c9cb"
-  integrity sha512-Sd5gUMB5JUNf3SrESB8fHEytPu9qTtqr4WcmmsrgkmTyeud4myr1WF0ZaLJwhJciapGeEB13TfD2unsZORyEgw==
+demo-compile@^0.2.7-alpha.8:
+  version "0.2.7-alpha.8"
+  resolved "https://registry.yarnpkg.com/demo-compile/-/demo-compile-0.2.7-alpha.8.tgz#8cf6378e98297b1bc626210c003f22054ac84896"
+  integrity sha512-pJA0fbBVqFIo3YbOosOab748AcjJsQawdAwQVv5L2stmHz1JmJ3vFsqbTfoynxJecAFkVklpsWRBc88jZhN9iQ==
   dependencies:
-    demo-contract "^0.2.7-alpha.6"
-    demo-utils "^0.2.7-alpha.5"
+    demo-contract "^0.2.7-alpha.8"
+    demo-utils "^0.2.7-alpha.8"
     ethereumjs-util "6.1.0"
     immutable "4.0.0-rc.12"
     solc "0.4.25"
 
-demo-contract@^0.2.7-alpha.6:
-  version "0.2.7-alpha.6"
-  resolved "https://registry.yarnpkg.com/demo-contract/-/demo-contract-0.2.7-alpha.6.tgz#3836cbf93da4303a7ba3a7eaecf88efa5f2c86ac"
-  integrity sha512-PkvJEd0OZTWiwieVcx8PlgmzxrzIMzf6AeysF9hW3ZxNDn8KMI4X5YtOu52qV7v9WnXn7girZvK3CaOXfLmqOQ==
+demo-contract@^0.2.7-alpha.8:
+  version "0.2.7-alpha.8"
+  resolved "https://registry.yarnpkg.com/demo-contract/-/demo-contract-0.2.7-alpha.8.tgz#5b6e0a959f2bd9c5bcc8a07e018863926c1a2912"
+  integrity sha512-uvslJ3o438+8e6WHwaYGpRcit2/dSlhv6etpjCGLCQz4FxHbd8oKnoKZdSptrEN1giF321UAEEYGs84pp0UNYg==
   dependencies:
-    demo-utils "^0.2.7-alpha.5"
+    demo-utils "^0.2.7-alpha.8"
     ethereumjs-util "6.1.0"
     ethjs-abi "0.2.1"
     immutable "4.0.0-rc.12"
 
-demo-keys@^0.2.7-alpha.5:
-  version "0.2.7-alpha.5"
-  resolved "https://registry.yarnpkg.com/demo-keys/-/demo-keys-0.2.7-alpha.5.tgz#f9c2a2b4e4fd1b013069d98b22c1464468073cc9"
-  integrity sha512-WhGcILOBP94r4OhDBsbnjEBtbEhTloaI23/f9JkTIsgCzSvYHPbgKrVcGAotTdEh0L5jCodZs9+1Qy4VwWsOJA==
+demo-keys@^0.2.7-alpha.8:
+  version "0.2.7-alpha.8"
+  resolved "https://registry.yarnpkg.com/demo-keys/-/demo-keys-0.2.7-alpha.8.tgz#e667e3d0075b1430314d5da0b4f5d3fe6513711b"
+  integrity sha512-Pq1uisHAD555VmxlKiioGBR+l/hN9AKw2qSI+OrGUK5WDxHtp5QGz7FbiUV368Frs1y4xFTaLY6HDZQ0ZnbeCg==
   dependencies:
     "@invisible-college/keythereum" "1.1.0"
     bops "1.0.0"
     chai-as-promised "7.1.1"
-    demo-utils "^0.2.7-alpha.5"
+    demo-utils "^0.2.7-alpha.8"
     ethereumjs-utils "5.2.5"
     ethjs "0.4.0"
     ethjs-provider-signer "0.1.4"
@@ -955,22 +956,22 @@ demo-keys@^0.2.7-alpha.5:
     randombytes "2.1.0"
     web3-utils "1.0.0-beta.48"
 
-demo-rest@^0.2.7-alpha.6:
-  version "0.2.7-alpha.6"
-  resolved "https://registry.yarnpkg.com/demo-rest/-/demo-rest-0.2.7-alpha.6.tgz#7a0d587f41715a8572b4cfae5226057058239dfb"
-  integrity sha512-G9JFrnxQqqSAoK5W6temxifz9ro1apXr6GBPBWqGgaMIbJWMo6CL00wgJeP5BwmErXcO4UDoWnyyyz/IkGMrAQ==
+demo-rest@^0.2.7-alpha.8:
+  version "0.2.7-alpha.8"
+  resolved "https://registry.yarnpkg.com/demo-rest/-/demo-rest-0.2.7-alpha.8.tgz#ba3bc9c8b3a28248ed45c30a640bdf024e0da199"
+  integrity sha512-GHRgLiKjYXAGcI2y39OWfDGelsjG+dLiFRbEjDj/SIK5ov2AL3qA/xTfHNpDhyQz2j8Zt3ypCYkQ4LVuDIzqWQ==
   dependencies:
     body-parser "1.18.3"
     chai "4.2.0"
-    demo-utils "^0.2.7-alpha.5"
+    demo-utils "^0.2.7-alpha.8"
     ethereumjs-utils "5.2.5"
     express "4.16.4"
     immutable "4.0.0-rc.12"
 
-demo-utils@^0.2.7-alpha.5:
-  version "0.2.7-alpha.5"
-  resolved "https://registry.yarnpkg.com/demo-utils/-/demo-utils-0.2.7-alpha.5.tgz#4a94b199f49c3c81d7d031913a0882ae172a5274"
-  integrity sha512-s8n7LzzGsqs+//vxThZVoOk58ak5G6QmhhEM9lYoWdpRqwHUZDpDq9pZxAAlNMeAuoFmKMU62nbuo5dBuWtcCw==
+demo-utils@^0.2.7-alpha.8:
+  version "0.2.7-alpha.8"
+  resolved "https://registry.yarnpkg.com/demo-utils/-/demo-utils-0.2.7-alpha.8.tgz#4096930a8ea3f2475626a68ee033ddb44bdd735a"
+  integrity sha512-/t2AvdBLVs3Mqt2xf6JB6LWscjowKdR21omSGhN0oSZhKR4XKNVONkwladhzh3rhP/M8Ac00Lva43G7lUGD7zg==
   dependencies:
     colors "1.3.3"
     dotenv "7.0.0"
@@ -978,26 +979,26 @@ demo-utils@^0.2.7-alpha.5:
     ethjs "0.4.0"
     immutable "4.0.0-rc.12"
 
-demo-webify@^0.2.7-alpha.6:
-  version "0.2.7-alpha.6"
-  resolved "https://registry.yarnpkg.com/demo-webify/-/demo-webify-0.2.7-alpha.6.tgz#1cdaf04bbd31f78138c3b44118da2b29853cce0b"
-  integrity sha512-ke2kqp/aa6aXOuSHqjVtr/2F3XYXJlCmgKHP8b/LMGFBGBeCzAqXLmRetXRdpIA+FkS5OySu3L35wGY6LGhniw==
+demo-webify@^0.2.7-alpha.8:
+  version "0.2.7-alpha.8"
+  resolved "https://registry.yarnpkg.com/demo-webify/-/demo-webify-0.2.7-alpha.8.tgz#671edfec01e2ad27b757e3d2bcf05d333a194980"
+  integrity sha512-WUJJp0Th+3ggM8iD3oc0dQ2bdaHmlWyRIJswule7DwB+sAuUzS0uqO77IZffQSxXIzyULSUPz44aTSGdVgtlQg==
   dependencies:
-    demo-contract "^0.2.7-alpha.6"
-    demo-keys "^0.2.7-alpha.5"
-    demo-utils "^0.2.7-alpha.5"
-    democracy.js "^0.2.7-alpha.6"
+    demo-contract "^0.2.7-alpha.8"
+    demo-keys "^0.2.7-alpha.8"
+    demo-utils "^0.2.7-alpha.8"
+    democracy.js "^0.2.7-alpha.8"
 
-democracy.js@^0.2.7-alpha.6:
-  version "0.2.7-alpha.6"
-  resolved "https://registry.yarnpkg.com/democracy.js/-/democracy.js-0.2.7-alpha.6.tgz#8185bdf9070db5e0e722033fd42e3e4ce8661c0a"
-  integrity sha512-Ql5FudUfFljiMWtOZ0W2TCZRpfGxSLhy/u3aRMT66XZ6P0t8cbPwQ2wqKOzfpS1KgoaYeAlBKrj7uHCFrp0Evg==
+democracy.js@^0.2.7-alpha.8:
+  version "0.2.7-alpha.8"
+  resolved "https://registry.yarnpkg.com/democracy.js/-/democracy.js-0.2.7-alpha.8.tgz#90d4e847065ec6f15f41e2e6523d481f23e10350"
+  integrity sha512-vAGlHSxJUSonJFIiJ7wtu7M4bRTz04isgmbBeaNn37XHRv5pMIht2mLg7ZIl0f9pzPdd0x+CdULPOnRdhwqbcw==
   dependencies:
-    "@democracy.js/depart" "^0.2.7-alpha.6"
-    demo-compile "^0.2.7-alpha.6"
-    demo-contract "^0.2.7-alpha.6"
-    demo-keys "^0.2.7-alpha.5"
-    demo-utils "^0.2.7-alpha.5"
+    "@democracy.js/depart" "^0.2.7-alpha.8"
+    demo-compile "^0.2.7-alpha.8"
+    demo-contract "^0.2.7-alpha.8"
+    demo-keys "^0.2.7-alpha.8"
+    demo-utils "^0.2.7-alpha.8"
 
 depd@~1.1.2:
   version "1.1.2"

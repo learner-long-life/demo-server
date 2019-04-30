@@ -6,8 +6,8 @@
     "logs": "pm2 logs"
   },
   "dependencies": {
-    "demo-rest": "^0.2.7-alpha.6",
-    "demo-webify": "^0.2.7-alpha.6"
+    "demo-rest": "^0.2.7-alpha.8",
+    "demo-webify": "^0.2.7-alpha.8"
   },
   "devDependencies": {
     "pm2": "^3.5.0"
